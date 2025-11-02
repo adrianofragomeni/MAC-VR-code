@@ -33,12 +33,12 @@ ARGS="
     --max_words 32
     --max_frames 12
     --video_framerate 1
-    --output_dir "../results/MSR-VTT/MAC-VR-qb-8_10_BS128-test/"
+    --output_dir "../results/MSR-VTT/MAC-VR-qb-6_8_BS128-test/"
     --center 8
     --temp 3
     --alpha 0.01
     --beta 0.005
-    --init_model "../results/MSR-VTT/MAC-VR-qb-8_10_BS128/pytorch_model.bin.step5400.3"
+    --init_model "../results/MSR-VTT/MAC-VR-qb-6_8_BS64/pytorch_model.bin.5"
     --number_textual_tags_train 8
     --number_textual_tags_test 10
     --number_visual_tags_train 8
