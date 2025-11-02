@@ -38,11 +38,11 @@ ARGS="
     --temp 3
     --alpha 0.01
     --beta 0.005
-    --init_model "../results/MSR-VTT/MAC-VR-qb-6_8_BS64/pytorch_model.bin.5"
-    --number_textual_tags_train 8
-    --number_textual_tags_test 10
-    --number_visual_tags_train 8
-    --number_visual_tags_test 10
+    --init_model "../results/MSR-VTT/MAC-VR-6_8_BS128-llama3/pytorch_model.bin.step7500.5"
+    --number_textual_tags_train 6
+    --number_textual_tags_test 8
+    --number_visual_tags_train 6
+    --number_visual_tags_test 8
     --output_path_concepts "../tsne/MAC-VR-MSRVTT-concepts.json"
 "
 
