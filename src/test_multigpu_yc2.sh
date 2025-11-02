@@ -1,7 +1,6 @@
 #!/bin/bash
 
 #SBATCH --job-name=training.py
-#SBATCH --partition=mlcnu
 #SBATCH --nodes=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=20:00:00
@@ -9,7 +8,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --cpus-per-task=15
 #SBATCH --mem=100GB 
-#SBATCH --account=cosc028886
 
 
 module purge
