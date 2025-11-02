@@ -31,7 +31,7 @@ After extraction we clean the tags using the code in ```cleaning_tags.py```.
 
 ### Data
 
-You can download the ```data``` folder [HERE]().
+You can download the ```data``` folder [HERE](https://www.dropbox.com/scl/fi/t90xd7ametr6187n5gczy/data.zip?rlkey=hv657tnu411nx893035rzvb24&st=guu3ny5a&dl=0).
 Add the videos of a dataset in the corresponding folder ```./data/name_dataset/videos```.
 You can find the updated annotations with the extracted tags in ```./data/name_dataset/anns```.
 
