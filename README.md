@@ -27,7 +27,15 @@ ASSISTANT:
 where {} is the corresponding caption.
 
 We use different temperature values (i.e., 0.7, 0.8, 0.9, 1.0) to extract tags from a video and its corresponding caption. We use the whole video and the corresponding paragraph for DiDeMo dataset.
-After extraction we clean the tags using the code in ```cleaning_tags.py```
+After extraction we clean the tags using the code in ```cleaning_tags.py```.
+
+### Data
+
+Add the videos of a dataset in the corresponding folder ```./data/name_dataset/videos```.
+
+### Train
+
+### Test
 
 ## Citation
 ```
