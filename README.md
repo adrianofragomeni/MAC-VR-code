@@ -1,7 +1,10 @@
 # MAC-VR
 This repo contains code of MAC-VR model used in the BMVC paper Leveraging Modality Tags for Enhanced Cross-Modal Video Retrieval.
 
-## Tag Extraction
+## Quick Start Guide
+Our code is based on the original code [DiCoSA](https://github.com/jpthu17/DiCoSA). Follow the ```Setup code enviroment```, ```Download CLIP Model``` and ```Compress Video``` in the DiCoSA repository. All the dependencies can be found in `MacVR_env.yml`
+
+### Tag Extraction
 To extract tags from a video, we used the original [VideoLLama2](https://github.com/DAMO-NLP-SG/VideoLLaMA2) with the following prompt:
 ```
 A general tag of an action is a fundamental and overarching idea that encapsulates the essential principles, commonalities, or recurrent patterns within a specific behaviour or activity, providing a higher-level understanding of the underlying themes and purpose associated with that action. What are the top 10 general tags that capture the fundamental idea of this action? Give me a bullet list as output where each point is a general tag, and use one or two significant words per tag and do not give any explanation.
@@ -33,5 +36,20 @@ After extraction we clean the tags using the code in ```cleaning_tags.py```
   title        = {Leveraging Modality Tags for Enhanced Cross-Modal Video Retrieval},
   booktitle    = {British Machine Vision Conference (BMVC)},
   year         = {2025}
+}
+
+@inproceedings{ijcai2023p0104,
+  title     = {Text-Video Retrieval with Disentangled Conceptualization and Set-to-Set Alignment},
+  author    = {Jin, Peng and Li, Hao and Cheng, Zesen and Huang, Jinfa and Wang, Zhennan and Yuan, Li and Liu, Chang and Chen, Jie},
+  booktitle = {Proceedings of the Thirty-Second International Joint Conference on
+               Artificial Intelligence, {IJCAI-23}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Edith Elkind},
+  pages     = {938--946},
+  year      = {2023},
+  month     = {8},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2023/104},
+  url       = {https://doi.org/10.24963/ijcai.2023/104},
 }
 ```
