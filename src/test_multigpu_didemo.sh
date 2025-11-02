@@ -1,7 +1,6 @@
 #!/bin/bash
 
 #SBATCH --job-name=training.py
-#SBATCH --partition=mlcnu
 #SBATCH --nodes=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=35:00:00
@@ -9,8 +8,6 @@
 #SBATCH --gpus-per-task=4
 #SBATCH --cpus-per-task=15
 #SBATCH --mem=80GB 
-#SBATCH --account=cosc028886
-
 
 module purge
 source activate /user/home/ms20996/miniconda3/envs/DiCoSA
