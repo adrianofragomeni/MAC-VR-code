@@ -1,0 +1,4 @@
+name: DicoSA
+channels:
+  - defaults
+prefix: /user/home/ms20996/miniconda3/envs/DicoSA
