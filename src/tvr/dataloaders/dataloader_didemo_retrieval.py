@@ -60,7 +60,7 @@ class DiDeMoDataset(Dataset):
         with open(video_id_path_dict[self.subset], 'r') as fp:
             video_ids = [itm.strip() for itm in fp.readlines()]
         
-        with open(os.path.join(self.data_path, "all_concepts_llama3_32vis.json"), 'r') as f:
+        with open(os.path.join(self.data_path, "all_concepts_llama3.json"), 'r') as f:
             self.concepts = json.load(f)
         
         caption_dict = {}
