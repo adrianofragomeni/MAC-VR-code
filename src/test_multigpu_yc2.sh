@@ -30,24 +30,25 @@ ARGS="
     --video_path "../data/YC2/videos/"
     --datatype yc2
     --max_words 32
-    --max_frames 24
+    --max_frames 12
     --video_framerate 1
-    --output_dir "../results/YC2/MAC-VR-qb-8_10_BS128_24frames-test"
+    --output_dir "../results/YC2/MAC-VR-qb-6_8_BS128_12frames-test"
     --center 8
     --temp 3
     --alpha 0.01
     --beta 0.005
-    --init_model "../results/YC2/MAC-VR-qb-8_10_BS128_24frames/pytorch_model.bin.step1350.16"
-    --number_textual_tags_train 8
-    --number_textual_tags_test 10
-    --number_visual_tags_train 8
-    --number_visual_tags_test 10
+    --init_model "../results/YC2/MAC-VR-6_8_BS128_12frames/pytorch_model.bin.step1320.16"
+    --number_textual_tags_train 6
+    --number_textual_tags_test 8
+    --number_visual_tags_train 6
+    --number_visual_tags_test 8
     --output_path_concepts "../tsne/MAC-VR-YC2-concepts.json"
 "
 
 echo "Start"
 CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --master_port ${MASTER_PORT} --nproc_per_node=1 main_retrieval.py ${ARGS}
 echo "Done"
+
 
 
 
