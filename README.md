@@ -31,6 +31,7 @@ After extraction we clean the tags using the code in ```cleaning_tags.py```.
 
 ### Data
 
+You can download the ```data``` folder [HERE]().
 Add the videos of a dataset in the corresponding folder ```./data/name_dataset/videos```.
 You can find the updated annotations with the extracted tags in ```./data/name_dataset/anns```.
 
@@ -41,7 +42,7 @@ To train the model you can find the commnad line in the corresponding sh file: `
 ### Test
 
 To test the model you can find the commnad line in the corresponding sh file: ```test_multigpu_name_dataset.sh```.
-The checkpoints are stored in the folder ```weights```.
+The checkpoints are stored in the folder ```weights``` that can be downloaded from [HERE]().
 
 
 ## Citation
