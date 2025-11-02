@@ -28,12 +28,12 @@ ARGS="
     --max_words 64
     --max_frames 50
     --video_framerate 1
-    --output_dir "../results/DiDemo/MAC-VR-qb-12_12_BS64-test/"
+    --output_dir "../results/DiDemo/MAC-VR-qb-6_8_BS64-test/"
     --center 8
     --temp 3
     --alpha 0.01
     --beta 0.005
-    --init_model "../results/DiDemo/MAC-VR-qb-12_12_BS64/pytorch_model.bin.4"
+    --init_model "../results/DiDemo/MAC-VR-qb-6_8_BS64/pytorch_model.bin.5"
     --number_textual_tags_train 12
     --number_textual_tags_test 12
     --number_visual_tags_train 12
