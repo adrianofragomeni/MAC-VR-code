@@ -32,10 +32,17 @@ After extraction we clean the tags using the code in ```cleaning_tags.py```.
 ### Data
 
 Add the videos of a dataset in the corresponding folder ```./data/name_dataset/videos```.
+You can find the updated annotations with the extracted tags in ```./data/name_dataset/anns```.
 
 ### Train
 
+To train the model you can find the commnad line in the corresponding sh file: ```train_multigpu_name_dataset.sh```.
+
 ### Test
+
+To test the model you can find the commnad line in the corresponding sh file: ```test_multigpu_name_dataset.sh```.
+The checkpoints are stored in the folder ```weights```.
+
 
 ## Citation
 ```
