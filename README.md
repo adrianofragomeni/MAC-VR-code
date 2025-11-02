@@ -42,7 +42,7 @@ To train the model you can find the commnad line in the corresponding sh file: `
 ### Test
 
 To test the model you can find the commnad line in the corresponding sh file: ```test_multigpu_name_dataset.sh```.
-The checkpoints are stored in the folder ```weights``` that can be downloaded from [HERE]().
+The checkpoints are stored in the folder ```weights``` that can be downloaded from [HERE](https://www.dropbox.com/scl/fi/y03ffvsy0r9scfz0jut98/weights.zip?rlkey=tf9xunb2j2qiyfr5o9vr80th3&st=1zdmsvcq&dl=0).
 
 
 ## Citation
