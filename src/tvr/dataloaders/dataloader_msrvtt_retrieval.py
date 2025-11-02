@@ -26,10 +26,10 @@ class MSRVTTDataset(RetrievalDataset):
         video_dict: dict: video_id -> video_path
         sentences_dict: list: [(video_id, caption)] , caption (list: [text:, start, end])
         """
-        csv_path = {'train': join(self.anno_path, 'training_9k_wrong.csv'),
+        csv_path = {'train': join(self.anno_path, 'training_9k.csv'),
                     'val': join(self.anno_path, 'testing.csv'),
                     'test': join(self.anno_path, 'testing.csv'),
-                    'train_test': join(self.anno_path, 'training_9k_wrong.csv')}[subset]
+                    'train_test': join(self.anno_path, 'training_9k.csv')}[subset]
         if exists(csv_path):
             csv = pd.read_csv(csv_path)
         else:
